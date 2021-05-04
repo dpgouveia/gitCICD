@@ -1,0 +1,3 @@
+REM anotacoes do curso git ci/cd
+set NODE_PATH=C:\app\nodejs\node-v14.16.1-win-x64
+set PATH=%NODE_PATH%;%PATH%
