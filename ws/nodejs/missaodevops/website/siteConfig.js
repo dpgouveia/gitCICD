@@ -14,15 +14,15 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/img/gumball.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Udemy - DevOps Site', // Title for your website.
+  tagline: 'A website for devops',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,8 +30,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'missaodevops',
+  organizationName: 'dpestan',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -48,14 +48,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/gumball.png',
+  footerIcon: 'img/gumball.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#654f5d',
-    secondaryColor: '#463741',
+    primaryColor: '#ff4000',
+    secondaryColor: '#992600',
   },
 
   /* Custom fonts for website */
@@ -73,10 +73,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} | MissaoDevOps`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
+    // https://github.com/highlightjs/highlight.js --- projeto contendo alguns estilos para serem utilizados no docusaurus
     theme: 'default',
   },
 
@@ -87,6 +88,13 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+
+  // Adicionando aplicativos...
+  facebookAppId:'198335764125824',
+  facebookComments:true,
+  twitter:'true',
+  twitterUsername:'dpestan',
+
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',

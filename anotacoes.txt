@@ -1,3 +1,6 @@
 REM anotacoes do curso git ci/cd
 set NODE_PATH=C:\app\nodejs\node-v14.16.1-win-x64
 set PATH=%NODE_PATH%;%PATH%
+
+REM npm run start -- executa o projeto docusaurus em modo desenvolvimento
+REM npm run build -- executa o build do projeto, convertendo todo js em paginas html
